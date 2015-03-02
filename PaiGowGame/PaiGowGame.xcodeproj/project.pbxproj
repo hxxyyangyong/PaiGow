@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C14AA1691A9F1527000C59EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AA1681A9F1527000C59EE /* main.m */; };
+		C14AA16C1A9F1527000C59EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AA16B1A9F1527000C59EE /* AppDelegate.m */; };
+		C14AA16F1A9F1527000C59EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AA16E1A9F1527000C59EE /* ViewController.m */; };
+		C14AA1721A9F1527000C59EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14AA1701A9F1527000C59EE /* Main.storyboard */; };
+		C14AA1741A9F1527000C59EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14AA1731A9F1527000C59EE /* Images.xcassets */; };
+		C14AA1771A9F1527000C59EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14AA1751A9F1527000C59EE /* LaunchScreen.xib */; };
+		C14AA1831A9F1527000C59EE /* PaiGowGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AA1821A9F1527000C59EE /* PaiGowGameTests.m */; };
+		C17325A41AA03E0B001C11EC /* img_a_gong_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C17325A31AA03E0B001C11EC /* img_a_gong_1.png */; };
+		C19E49A21AA0205500BF86A7 /* img_b_dian_a_9_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E498D1AA0205500BF86A7 /* img_b_dian_a_9_1.png */; };
+		C19E49A31AA0205500BF86A7 /* img_b_dian_f_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E498E1AA0205500BF86A7 /* img_b_dian_f_3.png */; };
+		C19E49A41AA0205500BF86A7 /* img_b_dian_a_9_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E498F1AA0205500BF86A7 /* img_b_dian_a_9_2.png */; };
+		C19E49A51AA0205500BF86A7 /* img_b_dian_b_8_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49901AA0205500BF86A7 /* img_b_dian_b_8_1.png */; };
+		C19E49A61AA0205500BF86A7 /* img_b_dian_b_8_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49911AA0205500BF86A7 /* img_b_dian_b_8_2.png */; };
+		C19E49A71AA0205500BF86A7 /* img_b_dian_c_7_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49921AA0205500BF86A7 /* img_b_dian_c_7_1.png */; };
+		C19E49A81AA0205500BF86A7 /* img_b_dian_c_7_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49931AA0205500BF86A7 /* img_b_dian_c_7_2.png */; };
+		C19E49A91AA0205500BF86A7 /* img_b_dian_d_6.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49941AA0205500BF86A7 /* img_b_dian_d_6.png */; };
+		C19E49AA1AA0205500BF86A7 /* img_b_dian_e_5_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49951AA0205500BF86A7 /* img_b_dian_e_5_1.png */; };
+		C19E49AB1AA0205500BF86A7 /* img_b_dian_e_5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49961AA0205500BF86A7 /* img_b_dian_e_5_2.png */; };
+		C19E49AD1AA0205500BF86A7 /* img_a_gong_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49981AA0205500BF86A7 /* img_a_gong_2.png */; };
+		C19E49AE1AA0205500BF86A7 /* img_a_gong_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49991AA0205500BF86A7 /* img_a_gong_3.png */; };
+		C19E49AF1AA0205500BF86A7 /* img_a_gong_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E499A1AA0205500BF86A7 /* img_a_gong_4.png */; };
+		C19E49B01AA0205500BF86A7 /* img_c_me_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E499B1AA0205500BF86A7 /* img_c_me_1.png */; };
+		C19E49B11AA0205500BF86A7 /* img_c_me_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E499C1AA0205500BF86A7 /* img_c_me_2.png */; };
+		C19E49B21AA0205500BF86A7 /* img_c_me_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E499D1AA0205500BF86A7 /* img_c_me_3.png */; };
+		C19E49B31AA0205500BF86A7 /* img_c_me_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E499E1AA0205500BF86A7 /* img_c_me_4.png */; };
+		C19E49B41AA0205500BF86A7 /* img_c_me_5.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E499F1AA0205500BF86A7 /* img_c_me_5.png */; };
+		C19E49B51AA0205500BF86A7 /* img_c_me_6.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49A01AA0205500BF86A7 /* img_c_me_6.png */; };
+		C19E49B61AA0205500BF86A7 /* img_c_me_7.png in Resources */ = {isa = PBXBuildFile; fileRef = C19E49A11AA0205500BF86A7 /* img_c_me_7.png */; };
+		C19E49BA1AA020A100BF86A7 /* HomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E49B81AA020A100BF86A7 /* HomeMainViewController.m */; };
+		C19E49BB1AA020A100BF86A7 /* HomeMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19E49B91AA020A100BF86A7 /* HomeMainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C14AA17D1A9F1527000C59EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C14AA15B1A9F1527000C59EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14AA1621A9F1527000C59EE;
+			remoteInfo = PaiGowGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C14AA1631A9F1527000C59EE /* PaiGowGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaiGowGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14AA1671A9F1527000C59EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C14AA1681A9F1527000C59EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C14AA16A1A9F1527000C59EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C14AA16B1A9F1527000C59EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C14AA16D1A9F1527000C59EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C14AA16E1A9F1527000C59EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C14AA1711A9F1527000C59EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C14AA1731A9F1527000C59EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C14AA1761A9F1527000C59EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C14AA17C1A9F1527000C59EE /* PaiGowGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaiGowGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14AA1811A9F1527000C59EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C14AA1821A9F1527000C59EE /* PaiGowGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaiGowGameTests.m; sourceTree = "<group>"; };
+		C17325A31AA03E0B001C11EC /* img_a_gong_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_a_gong_1.png; sourceTree = "<group>"; };
+		C19E498D1AA0205500BF86A7 /* img_b_dian_a_9_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_a_9_1.png; sourceTree = "<group>"; };
+		C19E498E1AA0205500BF86A7 /* img_b_dian_f_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_f_3.png; sourceTree = "<group>"; };
+		C19E498F1AA0205500BF86A7 /* img_b_dian_a_9_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_a_9_2.png; sourceTree = "<group>"; };
+		C19E49901AA0205500BF86A7 /* img_b_dian_b_8_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_b_8_1.png; sourceTree = "<group>"; };
+		C19E49911AA0205500BF86A7 /* img_b_dian_b_8_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_b_8_2.png; sourceTree = "<group>"; };
+		C19E49921AA0205500BF86A7 /* img_b_dian_c_7_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_c_7_1.png; sourceTree = "<group>"; };
+		C19E49931AA0205500BF86A7 /* img_b_dian_c_7_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_c_7_2.png; sourceTree = "<group>"; };
+		C19E49941AA0205500BF86A7 /* img_b_dian_d_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_d_6.png; sourceTree = "<group>"; };
+		C19E49951AA0205500BF86A7 /* img_b_dian_e_5_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_e_5_1.png; sourceTree = "<group>"; };
+		C19E49961AA0205500BF86A7 /* img_b_dian_e_5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_b_dian_e_5_2.png; sourceTree = "<group>"; };
+		C19E49981AA0205500BF86A7 /* img_a_gong_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_a_gong_2.png; sourceTree = "<group>"; };
+		C19E49991AA0205500BF86A7 /* img_a_gong_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_a_gong_3.png; sourceTree = "<group>"; };
+		C19E499A1AA0205500BF86A7 /* img_a_gong_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_a_gong_4.png; sourceTree = "<group>"; };
+		C19E499B1AA0205500BF86A7 /* img_c_me_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_1.png; sourceTree = "<group>"; };
+		C19E499C1AA0205500BF86A7 /* img_c_me_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_2.png; sourceTree = "<group>"; };
+		C19E499D1AA0205500BF86A7 /* img_c_me_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_3.png; sourceTree = "<group>"; };
+		C19E499E1AA0205500BF86A7 /* img_c_me_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_4.png; sourceTree = "<group>"; };
+		C19E499F1AA0205500BF86A7 /* img_c_me_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_5.png; sourceTree = "<group>"; };
+		C19E49A01AA0205500BF86A7 /* img_c_me_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_6.png; sourceTree = "<group>"; };
+		C19E49A11AA0205500BF86A7 /* img_c_me_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_c_me_7.png; sourceTree = "<group>"; };
+		C19E49B71AA020A100BF86A7 /* HomeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainViewController.h; sourceTree = "<group>"; };
+		C19E49B81AA020A100BF86A7 /* HomeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainViewController.m; sourceTree = "<group>"; };
+		C19E49B91AA020A100BF86A7 /* HomeMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeMainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C14AA1601A9F1527000C59EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14AA1791A9F1527000C59EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C14AA15A1A9F1527000C59EE = {
+			isa = PBXGroup;
+			children = (
+				C14AA1651A9F1527000C59EE /* PaiGowGame */,
+				C14AA17F1A9F1527000C59EE /* PaiGowGameTests */,
+				C14AA1641A9F1527000C59EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C14AA1641A9F1527000C59EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C14AA1631A9F1527000C59EE /* PaiGowGame.app */,
+				C14AA17C1A9F1527000C59EE /* PaiGowGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C14AA1651A9F1527000C59EE /* PaiGowGame */ = {
+			isa = PBXGroup;
+			children = (
+				C19E498C1AA0205500BF86A7 /* Images */,
+				C14AA16A1A9F1527000C59EE /* AppDelegate.h */,
+				C14AA16B1A9F1527000C59EE /* AppDelegate.m */,
+				C19E49B71AA020A100BF86A7 /* HomeMainViewController.h */,
+				C19E49B81AA020A100BF86A7 /* HomeMainViewController.m */,
+				C19E49B91AA020A100BF86A7 /* HomeMainViewController.xib */,
+				C14AA16D1A9F1527000C59EE /* ViewController.h */,
+				C14AA16E1A9F1527000C59EE /* ViewController.m */,
+				C14AA1701A9F1527000C59EE /* Main.storyboard */,
+				C14AA1731A9F1527000C59EE /* Images.xcassets */,
+				C14AA1751A9F1527000C59EE /* LaunchScreen.xib */,
+				C14AA1661A9F1527000C59EE /* Supporting Files */,
+			);
+			path = PaiGowGame;
+			sourceTree = "<group>";
+		};
+		C14AA1661A9F1527000C59EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14AA1671A9F1527000C59EE /* Info.plist */,
+				C14AA1681A9F1527000C59EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C14AA17F1A9F1527000C59EE /* PaiGowGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C14AA1821A9F1527000C59EE /* PaiGowGameTests.m */,
+				C14AA1801A9F1527000C59EE /* Supporting Files */,
+			);
+			path = PaiGowGameTests;
+			sourceTree = "<group>";
+		};
+		C14AA1801A9F1527000C59EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14AA1811A9F1527000C59EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C19E498C1AA0205500BF86A7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C19E498D1AA0205500BF86A7 /* img_b_dian_a_9_1.png */,
+				C19E498F1AA0205500BF86A7 /* img_b_dian_a_9_2.png */,
+				C19E49901AA0205500BF86A7 /* img_b_dian_b_8_1.png */,
+				C19E49911AA0205500BF86A7 /* img_b_dian_b_8_2.png */,
+				C19E49921AA0205500BF86A7 /* img_b_dian_c_7_1.png */,
+				C19E49931AA0205500BF86A7 /* img_b_dian_c_7_2.png */,
+				C19E49941AA0205500BF86A7 /* img_b_dian_d_6.png */,
+				C19E49951AA0205500BF86A7 /* img_b_dian_e_5_1.png */,
+				C19E49961AA0205500BF86A7 /* img_b_dian_e_5_2.png */,
+				C19E498E1AA0205500BF86A7 /* img_b_dian_f_3.png */,
+				C17325A31AA03E0B001C11EC /* img_a_gong_1.png */,
+				C19E49981AA0205500BF86A7 /* img_a_gong_2.png */,
+				C19E49991AA0205500BF86A7 /* img_a_gong_3.png */,
+				C19E499A1AA0205500BF86A7 /* img_a_gong_4.png */,
+				C19E499B1AA0205500BF86A7 /* img_c_me_1.png */,
+				C19E499C1AA0205500BF86A7 /* img_c_me_2.png */,
+				C19E499D1AA0205500BF86A7 /* img_c_me_3.png */,
+				C19E499E1AA0205500BF86A7 /* img_c_me_4.png */,
+				C19E499F1AA0205500BF86A7 /* img_c_me_5.png */,
+				C19E49A01AA0205500BF86A7 /* img_c_me_6.png */,
+				C19E49A11AA0205500BF86A7 /* img_c_me_7.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C14AA1621A9F1527000C59EE /* PaiGowGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14AA1861A9F1527000C59EE /* Build configuration list for PBXNativeTarget "PaiGowGame" */;
+			buildPhases = (
+				C14AA15F1A9F1527000C59EE /* Sources */,
+				C14AA1601A9F1527000C59EE /* Frameworks */,
+				C14AA1611A9F1527000C59EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaiGowGame;
+			productName = PaiGowGame;
+			productReference = C14AA1631A9F1527000C59EE /* PaiGowGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C14AA17B1A9F1527000C59EE /* PaiGowGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14AA1891A9F1527000C59EE /* Build configuration list for PBXNativeTarget "PaiGowGameTests" */;
+			buildPhases = (
+				C14AA1781A9F1527000C59EE /* Sources */,
+				C14AA1791A9F1527000C59EE /* Frameworks */,
+				C14AA17A1A9F1527000C59EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C14AA17E1A9F1527000C59EE /* PBXTargetDependency */,
+			);
+			name = PaiGowGameTests;
+			productName = PaiGowGameTests;
+			productReference = C14AA17C1A9F1527000C59EE /* PaiGowGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C14AA15B1A9F1527000C59EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tongcheng;
+				TargetAttributes = {
+					C14AA1621A9F1527000C59EE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C14AA17B1A9F1527000C59EE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C14AA1621A9F1527000C59EE;
+					};
+				};
+			};
+			buildConfigurationList = C14AA15E1A9F1527000C59EE /* Build configuration list for PBXProject "PaiGowGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C14AA15A1A9F1527000C59EE;
+			productRefGroup = C14AA1641A9F1527000C59EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C14AA1621A9F1527000C59EE /* PaiGowGame */,
+				C14AA17B1A9F1527000C59EE /* PaiGowGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C14AA1611A9F1527000C59EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14AA1721A9F1527000C59EE /* Main.storyboard in Resources */,
+				C19E49A31AA0205500BF86A7 /* img_b_dian_f_3.png in Resources */,
+				C19E49A71AA0205500BF86A7 /* img_b_dian_c_7_1.png in Resources */,
+				C19E49A51AA0205500BF86A7 /* img_b_dian_b_8_1.png in Resources */,
+				C19E49A41AA0205500BF86A7 /* img_b_dian_a_9_2.png in Resources */,
+				C19E49B21AA0205500BF86A7 /* img_c_me_3.png in Resources */,
+				C19E49AF1AA0205500BF86A7 /* img_a_gong_4.png in Resources */,
+				C19E49B61AA0205500BF86A7 /* img_c_me_7.png in Resources */,
+				C19E49A61AA0205500BF86A7 /* img_b_dian_b_8_2.png in Resources */,
+				C19E49B01AA0205500BF86A7 /* img_c_me_1.png in Resources */,
+				C19E49A81AA0205500BF86A7 /* img_b_dian_c_7_2.png in Resources */,
+				C19E49A21AA0205500BF86A7 /* img_b_dian_a_9_1.png in Resources */,
+				C19E49B51AA0205500BF86A7 /* img_c_me_6.png in Resources */,
+				C19E49B41AA0205500BF86A7 /* img_c_me_5.png in Resources */,
+				C19E49AA1AA0205500BF86A7 /* img_b_dian_e_5_1.png in Resources */,
+				C19E49AE1AA0205500BF86A7 /* img_a_gong_3.png in Resources */,
+				C17325A41AA03E0B001C11EC /* img_a_gong_1.png in Resources */,
+				C19E49A91AA0205500BF86A7 /* img_b_dian_d_6.png in Resources */,
+				C19E49B11AA0205500BF86A7 /* img_c_me_2.png in Resources */,
+				C19E49AD1AA0205500BF86A7 /* img_a_gong_2.png in Resources */,
+				C19E49AB1AA0205500BF86A7 /* img_b_dian_e_5_2.png in Resources */,
+				C14AA1771A9F1527000C59EE /* LaunchScreen.xib in Resources */,
+				C19E49BB1AA020A100BF86A7 /* HomeMainViewController.xib in Resources */,
+				C14AA1741A9F1527000C59EE /* Images.xcassets in Resources */,
+				C19E49B31AA0205500BF86A7 /* img_c_me_4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14AA17A1A9F1527000C59EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C14AA15F1A9F1527000C59EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E49BA1AA020A100BF86A7 /* HomeMainViewController.m in Sources */,
+				C14AA16F1A9F1527000C59EE /* ViewController.m in Sources */,
+				C14AA16C1A9F1527000C59EE /* AppDelegate.m in Sources */,
+				C14AA1691A9F1527000C59EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14AA1781A9F1527000C59EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14AA1831A9F1527000C59EE /* PaiGowGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C14AA17E1A9F1527000C59EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C14AA1621A9F1527000C59EE /* PaiGowGame */;
+			targetProxy = C14AA17D1A9F1527000C59EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C14AA1701A9F1527000C59EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14AA1711A9F1527000C59EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C14AA1751A9F1527000C59EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14AA1761A9F1527000C59EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C14AA1841A9F1527000C59EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C14AA1851A9F1527000C59EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C14AA1871A9F1527000C59EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaiGowGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C14AA1881A9F1527000C59EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaiGowGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C14AA18A1A9F1527000C59EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaiGowGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaiGowGame.app/PaiGowGame";
+			};
+			name = Debug;
+		};
+		C14AA18B1A9F1527000C59EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaiGowGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaiGowGame.app/PaiGowGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C14AA15E1A9F1527000C59EE /* Build configuration list for PBXProject "PaiGowGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14AA1841A9F1527000C59EE /* Debug */,
+				C14AA1851A9F1527000C59EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14AA1861A9F1527000C59EE /* Build configuration list for PBXNativeTarget "PaiGowGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14AA1871A9F1527000C59EE /* Debug */,
+				C14AA1881A9F1527000C59EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14AA1891A9F1527000C59EE /* Build configuration list for PBXNativeTarget "PaiGowGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14AA18A1A9F1527000C59EE /* Debug */,
+				C14AA18B1A9F1527000C59EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C14AA15B1A9F1527000C59EE /* Project object */;
+}
